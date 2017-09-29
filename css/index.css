@@ -1,0 +1,314 @@
+
+/* 通用选择器，去掉浏览器默认样式 */
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+
+/* 头部开始 */
+.header{
+	width: 100%;
+	height: 40px;
+	background: #333333;
+}
+.header-content{
+	width: 1226px;
+	height: 40px;
+	background: red;
+	margin: 0 auto;
+}
+.header-left{
+	width: 425px;
+	height: 40px;
+	background: yellow;
+	float: left;
+}
+.header-left li{
+	float: left;
+	font-size: 12px;
+	padding: 0 8px;
+	border-right: 1px solid #424242;
+	margin-top: 12px;
+	
+}
+.header-left li a{
+	color: #b0b0b0;
+}
+.header-left li a:hover{
+	color: #fff;
+}
+.header-left li:first-child{
+	padding-left: 0px;
+}
+.header-left li:last-child{
+	border-right: none;
+}
+.header-right{
+	width: 313px;
+	height: 40px;
+	background: gold;
+	float: right;
+}
+.shopcar{
+	width: 120px;
+	height: 40px;
+	background: #424242;
+	float: right;
+}
+.gouwuche{
+	width: 20px;
+	height: 14px;
+	/* background: red; */
+	float: left;
+	margin-top: 14px;
+	margin-left: 16px;
+	background: url('../img/pic.png') no-repeat center center;
+}
+.gouwuzi{
+   float: left;
+   font-size: 12px;
+   color: #b0b0b0;
+   margin-top: 12px;
+	margin-left: 4px;
+}
+.shopcar:hover{
+	background: #fff;
+}
+.shopcar:hover .gouwuzi{
+	color: #ff6700;
+}
+.shopcar:hover .gouwuche{
+	background: url('../img/pic1.png') no-repeat center center;
+}
+/* 头部结束 */
+/* 导航开始 */
+.nav{
+	width: 1226px;
+	height: 100px;
+	background: pink;
+	margin: 0 auto;
+}
+.nav-left{
+	width: 55px;
+	height: 55px;
+	background: gold;
+	float: left;
+	margin-top: 22px;
+}
+.nav-center{
+	width: 650px;
+	height: 100px;
+	background: red;
+	float: left;
+	margin-left: 190px;
+
+}
+.nav-right{
+	width: 296px;
+	height: 50px;
+	background: blue;
+	float: right;
+	margin-top: 25px;
+}
+/* 导航结束 */
+/* banner开始 */
+.banner{
+	width: 1226px;
+	height: 460px;
+	background: pink;
+	margin: 0 auto;
+	position: relative;
+}
+.banner-pic{
+	width: 1226px;
+	height: 460px;
+	background: red;
+}
+.banner-pic li{
+	width: 1226px;
+	height: 460px;
+	background: yellowgreen;
+	position: absolute;
+	left: 0;
+	top: 0;
+
+}
+.banner-pic li a,.banner-pic li a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.banner-left{
+	width: 41px;
+	height: 69px;
+	background: #000;
+	position: absolute;
+
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+
+	left: 234px;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 69px;
+	/* 鼠标样式：手型 */
+	cursor: pointer;
+}
+.banner-right{
+	width: 41px;
+	height: 69px;
+	background: rgba(0, 0, 0, 0.5);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin-top: auto;
+	margin-bottom: auto;
+	right: 0;
+	color: #fff;
+	font-size: 40px;
+	text-align: center;
+	line-height: 69px;
+}
+.bth-list{
+	width: 90px;
+	height: 10px;
+	background: red;
+	position: absolute;
+	right: 30px;
+	bottom: 20px;
+}
+.bth-list li{
+	width: 6px;
+	height: 6px;
+	background: #17171c;
+	border: 2px solid #4f4f53;
+
+	border-radius: 50%;
+	float: left;
+}
+/*banner结束 */
+/* 明星单品开始 */
+.danpin-box{
+	width: 1226px;
+	height: 340px;
+	background: red;
+	/* 使div水平居中 */
+	margin: 0 auto;
+}
+.danpin-list{
+	width: 234px;
+	height: 339px;
+	background: yellow;
+	float: left;
+	margin-right: 14px;
+}
+.danpin-box .danpin-list:last-child{
+	margin-right: 0;
+	border-top: 1px solid #00c0a5;
+}
+.danpin-box .danpin-list:first-child{
+	border-top: 1px solid #ffac13;
+}
+.danpin-box .danpin-list:nth-child(2){
+	border-top: 1px solid #83c44e;
+}
+.danpin-box .danpin-list:nth-child(3){
+	border-top: 1px solid #2196f3;
+}
+.danpin-box .danpin-list:nth-child(4){
+	border-top: 1px solid rgb(229, 57, 53);
+}
+.img-box{
+	/* 转换为块标签 */
+	display: block;
+	width: 171px;
+	height: 153px;
+	background: pink;
+	margin: 0 auto;
+	margin-top: 40px;
+
+}
+.img-box img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.word-box{
+	width: 190px;
+	height: 85px;
+	background: pink;
+	margin: 0 auto;
+	margin-top: 33px;
+	font-size: 12px;
+	text-align: center;
+
+}
+/* 可以继承的：
+font-  text- line- color */
+.word1{
+   color: #212121;  
+}
+.word2{
+   color: #b0b0b0;
+   margin-top: 11px;
+}
+
+/* 明星单品结束 */
+/* 智能开始 */
+.zhineng{
+	/* 通屏 */
+	width: 100%;
+	height: 732px;
+	background: #f5f5f5;
+	margin-top: 40px;
+	overflow: hidden;
+}
+.zhineng-content{
+	width: 1226px;
+	height: 654px;
+	background: yellow;
+	margin: 0 auto;
+	margin-top: 78px;
+}
+.zhineng-top{
+	width: 100%;
+	height: 40px;
+	background: pink;
+}
+.zhineng-bottom{
+	width: 100%;
+	height:614px;
+	background: red; 
+}
+.zhineng-left{
+	width: 234px;
+	height: 614px;
+	background: gold;
+	float: left;
+}
+.zhineng-right{
+	width: 978px;
+	height: 614px;
+	background: blue;
+	float: right;
+}
+.zhineng-list{
+	width: 234px;
+	height: 300px;
+	background: green;
+	float: left;
+	margin-right: 14px;
+	margin-bottom: 14px;
+}
+.zhineng-right .zhineng-list:nth-child(4),.zhineng-right .zhineng-list:nth-child(8){
+	margin-right: 0;
+}
+
+/* 智能结束 */

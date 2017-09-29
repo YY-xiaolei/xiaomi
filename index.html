@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>小米商城</title>
+	<link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="iconfont/iconfont.css">
+</head>
+<body>
+    <i class="iconfont icon-gift"></i>
+    <!-- 头部开始 -->
+    <div class="header">
+		<div class="header-content">
+			<ul class="header-left">
+				<li><a href="">小米商城</a></li>
+				<li><a href="">小米</a></li>
+				<li><a href="">小米</a></li>
+				<li><a href="">小米</a></li>
+				<li><a href="">小米</a></li>
+				<li><a href="">小米</a></li>
+				<li><a href="">小米</a></li>
+				<li><a href="">小米</a></li>
+				<li><a href="">小米</a></li>
+				<li><a href="">小米</a></li>
+			</ul>
+			<div class="header-right">
+				<a href="" class="shopcar">
+					<div class="gouwuche"></div>
+					<div class="gouwuzi">购物车(0)</div>
+				</a>
+			</div>
+		</div>
+    </div>
+    <!-- 头部结束 -->
+    <!-- 导航开始 -->
+    <div class="nav">
+    	<a href="" class="nav-left">
+    		
+    	</a>
+    	<ul class="nav-center"></ul>
+    	<div class="nav-right"></div>
+    </div>
+    <!-- 导航结束 -->
+    <!-- banner开始 -->
+    <div class="banner">
+    	<!-- 图片 -->
+    	<ul class="banner-pic">
+    		<li>
+	    		<a href="">
+	    		    <img src="img/banner.jpg" alt="">
+	    		</a>
+    		</li>
+    		<li>
+    			<a href="">
+	    		    <img src="img/banner.jpg" alt="">
+	    		</a>
+    		</li>
+    		<li>
+    			<a href="">
+	    		    <img src="img/banner.jpg" alt="">
+	    		</a>
+    		</li>
+    		<li>
+    			<a href="">
+	    		    <img src="img/banner.jpg" alt="">
+	    		</a>
+    		</li>
+    		<li>
+    			<a href="">
+	    		    <img src="img/banner.jpg" alt="">
+	    		</a>
+    		</li>
+    		<li>
+    			<a href="">
+	    		    <img src="img/banner.jpg" alt="">
+	    		</a>
+    		</li>
+    		<li>
+    			<a href="">
+	    		    <img src="img/banner.jpg" alt="">
+	    		</a>
+    		</li>
+    	</ul>
+    	<!-- 左把手 -->
+    	<div class="banner-left">&lt;</div>
+    	<div class="banner-right">&gt;</div>
+    	<ul class="bth-list">
+    		<li></li>
+    		<li></li>
+    		<li></li>
+    		<li></li>
+    		<li></li>
+    	</ul>
+    	
+    </div>
+    <!-- banner结束 -->
+
+	<!-- 明星单品开始 -->
+	
+	<!-- 明星单品结束 -->
+	<!-- 智能开始 -->
+	
+	<!-- 智能结束 -->
+ 
+</body>
+</html>
+<!-- 一、去掉浏览器默认样式
+*{
+	margin:0;
+	padding:0;
+}
+*是通用选择器，选中页面中所有标签
+二、div水平居中
+    margin:0 auto;
+三、后代选择选择器
+通过父元素选中子元素
+格式：父元素 (空格) 子元素
+:first-child
+:nth-child(n)
+:last-child -->
+<!-- 四、去掉a标签下划线
+a{
+	text-decoration: none;
+}
+五、修改图片大小
+选择器{
+	display:block;
+	width:100%;
+	height:100%;
+} -->
+<!-- 一、margin-top的BUG
+问题描述：给子元素加margin-top,父元素与子元素一起作用
+条件：同时具备
+1、子元素是第一个子元素
+2、子元素没有加浮动
+3、父元素没有加浮动
+4、父元素没有内填充
+5、父元素没有边框
+解决办法：
+1、用父元素padding-top去模拟子元素的margin-top
+(给父元素加padding-top,改变父元素的高,删掉子元素margin-top)
+2、给父元素加overflow:hidden; -->
+<!-- 二、群组选择器
+css样式一致时用
+选择器,选择器{
+	
+} -->
+<!-- 列表标签：
+<ul>
+	<li></li>
+	<li></li>
+</ul>
+ul表示整个列表,li表示每个列表项
+ul、li都是块标签
+去掉装饰：list-style:none; -->
+
+<!-- 实体：
+&lt;  <
+&gt;  >
+
+圆：
+border-radius:50%;
+
+定位：
+特点：脱离文档流
+何时用：元素需要层叠时用
+一、找父元素
+    position:relative;
+二、找子元素
+    position:absolute;
+三、调位置
+    top bottom left right
+特殊：
+垂直居中：top:0;bottom:0;
+          margin-top:auto;
+          margin-bottom:auto;
+水平居中:left:0;right:0;
+         margin-left:auto;
+         margin-right:auto;
+
+透明度：
+rgba(0,0,0,0.8);
+a:表示透明度 0-1之间的小数
+0表示透明，1表示不透明
+数字越接近1越不透明，越接近0越透明
+ -->
